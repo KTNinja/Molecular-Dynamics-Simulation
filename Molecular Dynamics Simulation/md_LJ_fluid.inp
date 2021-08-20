@@ -1,0 +1,12 @@
+125                   !! npart
+0.01                  !! dt  (reduced units)
+5.d0                  !! reset_temp_time
+500.d0                !! eq_time
+5.d0                  !! final_time
+1.d0                  !! mass (reduced units, same for all atoms)
+1.d0	              !! sigma (reduced units)
+1.d0	              !! epsilion (reduced units)
+0.844d0               !! density (reduced units)
+0.71d0	              !! temperature (reduced units)
+1		      !! flag_write: if set to 1, writes trajectory data (position and velocity of particle 1 and total energy as function of time)
+1		      !! flag_vmd: if set to 1, generates vmd data 
